@@ -1,0 +1,74 @@
+.paint, .car{
+  background-color:#626262;
+  width:300px;
+  height:300px;
+  height:auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#identity{
+  background-color:yellow;
+  width:300px;
+  height:300px;
+  height:auto;
+  text-align: center;
+}
+
+p.element{
+  color:orange;
+}
+
+div,p{
+  color:maroon;
+}
+
+div p{
+  font-weight:300;
+}
+
+span::after{
+  content:"  -It is sure";
+}
+
+u::before{
+  content: "Read it-  ";
+}
+u{
+  text-decoration: none;
+}
+.before{
+  margin-top: 10px;
+}
+a[target]{
+background-color: yellow;
+}
+ol[type="A"] li:nth-child(1){
+color: green;
+}
+ol[type="A"] li:nth-child(2){
+color: red;
+}
+ol[type="A"] li:nth-child(3){
+color:purple;
+}
+img[title~="flower"]{
+  border:5px solid yellow;
+}
+p[lang$="us"]{
+  background: chocolate;
+  color:white;
+  text-align: center;
+}
+.anchor[href*="https"]{
+  background-color: black;
+  color:cyan;
+}
+div[class*="googlesite"]{
+    width:200px;
+    height:200px;
+    background-color: green;
+    display:inline-block;
+  color:purple;
+  text-align: center;
+
+}
